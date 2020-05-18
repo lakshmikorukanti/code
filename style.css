@@ -1,0 +1,93 @@
+div h1
+{
+    text-align: center;
+   font-size: 50px;
+}
+.flex
+{
+    display: flex;
+    margin-left:300px;
+
+}
+.flex img{
+    border: 10px;
+    padding: 10px;
+}
+.cont{
+    width: 80%;
+    height: 200px;
+    background-color: blue;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+.class1
+{
+    float: right;
+    border: 10px;
+    margin-right: 10px;
+    margin-top: -150px;
+
+ 
+}
+.class2{
+    margin-top: 40px;
+   border-right: -360px;
+   margin-top: -100px;
+
+}
+div>h2{
+    float: none;
+    color: white;
+    margin-left: 240px;
+    margin-top: 20px;
+    padding-top: 40px;
+}
+.button{
+    width:100px;
+    color: white; 
+    background-color: maroon;
+    height: 30px;
+    padding: 0px;
+}
+.height{
+    height: 30px;
+    width:150px
+}
+.service_width{
+    width:200px;
+}
+div p{
+    float: none;
+    color: white;
+    margin-left: 240px;
+    margin-top: 0px;
+}
+#content
+{
+    display: flex;
+    margin-left: 340px;
+    color: red;
+
+}
+#content1{
+    margin-left:130px;
+}
+#content2{
+    margin-left:200px;
+}
+.p_color{
+    color: black;
+    
+    display: flex;
+    margin-left: 340px;
+}
+#p_content{
+    margin-left:100px;
+}
+#summer{
+    margin-left: 200px;
+    margin-top: -10px;
+}
+#summer1{
+    margin-top: -10px;
+}
