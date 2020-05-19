@@ -1,0 +1,32 @@
+.box {
+    padding: 20px;
+  }
+  .grid {
+   display: grid;
+   grid-template-columns: auto auto auto auto auto auto auto auto auto ;
+   grid-template-rows: auto auto auto auto auto auto auto auto auto auto ;
+  }
+  .card {
+    max-width: 20%;
+    flex: 20%;
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  button {
+    padding: 10px;
+  }
+  h1 {
+    text-align: center;
+  }
+  @media (max-width: 600px) {
+    .card {
+      max-width: 100%;
+      flex: 100%;
+    }
+    .grid{
+        grid-template-columns: auto auto auto;
+        
+    }
+  }
