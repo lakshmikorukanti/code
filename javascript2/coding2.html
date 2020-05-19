@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee details in table</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div>
+        <div id="id1" class="input">Name:<input id="name" type="name" placeholder="Enter name of the employee"/></div>
+        <div class="input">department:<input id="department" type="text" placeholder="Enter the employee department "/></div>
+        <div class="input">sales1:<input id="sale1" type="text" placeholder="Enter the sales year1"/></div>
+        <div class="input">sales2:<input id="sales2" type="text" placeholder="Enter the sales year2"/></div>
+        <button id="add">Add</button>
+    </div>
+    <table id="display">
+            <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>department</td>
+                    <td>sales1</td>
+                    <td>sales2</td>
+                    <td>average</td>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+    </table>
+    <button id="ascending">ascending Order</button>
+    <button id="descending">descending Order</button>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
